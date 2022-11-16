@@ -1,6 +1,6 @@
 # Lab4_Graficas
 
-El programa fue hecho con Swift y Metal como aplicación para MacOS. Por tal razón, bajo instrucciones de Dennis, se subió un video para demostrar y explicar el funcionamiento del programa. 
+El programa fue hecho con Swift y Metal como aplicación para MacOS. Por tal razón, bajo instrucciones de Dennis, se subió un video para demostrar y explicar el funcionamiento del programa. https://youtu.be/1gbu8rbnBUQ
 
 
 ###### Se cumplió con los siguientes requisitos de la rúbrica. 
