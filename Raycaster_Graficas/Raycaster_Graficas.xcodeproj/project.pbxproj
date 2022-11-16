@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B552D0C92922934500760238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552D0C82922934500760238 /* AppDelegate.swift */; };
+		B552D0CB2922934500760238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552D0CA2922934500760238 /* ViewController.swift */; };
+		B552D0CD2922934700760238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B552D0CC2922934700760238 /* Assets.xcassets */; };
+		B552D0D02922934700760238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B552D0CE2922934700760238 /* Main.storyboard */; };
+		B552D0D82922952700760238 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552D0D72922952700760238 /* Renderer.swift */; };
+		B552D0DA2922989A00760238 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552D0D92922989A00760238 /* Primitive.swift */; };
+		B552D0DC2922ACE300760238 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B552D0DB2922ACE300760238 /* Shaders.metal */; };
+		B552D0E02922C43100760238 /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552D0DF2922C43100760238 /* MathLibrary.swift */; };
+		B552D0E72922CFAC00760238 /* mario.obj in Resources */ = {isa = PBXBuildFile; fileRef = B552D0E62922CFAB00760238 /* mario.obj */; };
+		B552D0E92922F0C400760238 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552D0E82922F0C400760238 /* Camera.swift */; };
+		B552D0EB2923104B00760238 /* ViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552D0EA2923104B00760238 /* ViewControllerExt.swift */; };
+		B58A136129252E0B00FEA05B /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = B58A136029252E0B00FEA05B /* cube.obj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B552D0C52922934500760238 /* Raycaster_Graficas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raycaster_Graficas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B552D0C82922934500760238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B552D0CA2922934500760238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B552D0CC2922934700760238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B552D0CF2922934700760238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B552D0D12922934700760238 /* Raycaster_Graficas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Raycaster_Graficas.entitlements; sourceTree = "<group>"; };
+		B552D0D72922952700760238 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		B552D0D92922989A00760238 /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		B552D0DB2922ACE300760238 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		B552D0DF2922C43100760238 /* MathLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
+		B552D0E12922C48700760238 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B552D0E62922CFAB00760238 /* mario.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mario.obj; path = "../../Graficas/Tarea 3/mario.obj"; sourceTree = "<group>"; };
+		B552D0E82922F0C400760238 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		B552D0EA2923104B00760238 /* ViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExt.swift; sourceTree = "<group>"; };
+		B58A136029252E0B00FEA05B /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cube.obj; path = ../../cube.obj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B552D0C22922934500760238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B552D0BC2922934400760238 = {
+			isa = PBXGroup;
+			children = (
+				B552D0C72922934500760238 /* Raycaster_Graficas */,
+				B552D0C62922934500760238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B552D0C62922934500760238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B552D0C52922934500760238 /* Raycaster_Graficas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B552D0C72922934500760238 /* Raycaster_Graficas */ = {
+			isa = PBXGroup;
+			children = (
+				B552D0C82922934500760238 /* AppDelegate.swift */,
+				B552D0CA2922934500760238 /* ViewController.swift */,
+				B552D0D72922952700760238 /* Renderer.swift */,
+				B552D0D92922989A00760238 /* Primitive.swift */,
+				B552D0DF2922C43100760238 /* MathLibrary.swift */,
+				B552D0E82922F0C400760238 /* Camera.swift */,
+				B552D0EA2923104B00760238 /* ViewControllerExt.swift */,
+				B552D0E12922C48700760238 /* Common.h */,
+				B552D0DB2922ACE300760238 /* Shaders.metal */,
+				B552D0CC2922934700760238 /* Assets.xcassets */,
+				B552D0CE2922934700760238 /* Main.storyboard */,
+				B552D0D12922934700760238 /* Raycaster_Graficas.entitlements */,
+				B552D0E62922CFAB00760238 /* mario.obj */,
+				B58A136029252E0B00FEA05B /* cube.obj */,
+			);
+			path = Raycaster_Graficas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B552D0C42922934500760238 /* Raycaster_Graficas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B552D0D42922934700760238 /* Build configuration list for PBXNativeTarget "Raycaster_Graficas" */;
+			buildPhases = (
+				B552D0C12922934500760238 /* Sources */,
+				B552D0C22922934500760238 /* Frameworks */,
+				B552D0C32922934500760238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raycaster_Graficas;
+			productName = Raycaster_Graficas;
+			productReference = B552D0C52922934500760238 /* Raycaster_Graficas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B552D0BD2922934400760238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B552D0C42922934500760238 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B552D0C02922934400760238 /* Build configuration list for PBXProject "Raycaster_Graficas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B552D0BC2922934400760238;
+			productRefGroup = B552D0C62922934500760238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B552D0C42922934500760238 /* Raycaster_Graficas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B552D0C32922934500760238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58A136129252E0B00FEA05B /* cube.obj in Resources */,
+				B552D0CD2922934700760238 /* Assets.xcassets in Resources */,
+				B552D0D02922934700760238 /* Main.storyboard in Resources */,
+				B552D0E72922CFAC00760238 /* mario.obj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B552D0C12922934500760238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B552D0CB2922934500760238 /* ViewController.swift in Sources */,
+				B552D0D82922952700760238 /* Renderer.swift in Sources */,
+				B552D0EB2923104B00760238 /* ViewControllerExt.swift in Sources */,
+				B552D0C92922934500760238 /* AppDelegate.swift in Sources */,
+				B552D0DA2922989A00760238 /* Primitive.swift in Sources */,
+				B552D0DC2922ACE300760238 /* Shaders.metal in Sources */,
+				B552D0E92922F0C400760238 /* Camera.swift in Sources */,
+				B552D0E02922C43100760238 /* MathLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B552D0CE2922934700760238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B552D0CF2922934700760238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B552D0D22922934700760238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B552D0D32922934700760238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B552D0D52922934700760238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Raycaster_Graficas/Raycaster_Graficas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T489B8A5G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stefanoaragoni.Raycaster-Graficas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = Raycaster_Graficas/Common.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B552D0D62922934700760238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Raycaster_Graficas/Raycaster_Graficas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T489B8A5G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stefanoaragoni.Raycaster-Graficas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = Raycaster_Graficas/Common.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B552D0C02922934400760238 /* Build configuration list for PBXProject "Raycaster_Graficas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B552D0D22922934700760238 /* Debug */,
+				B552D0D32922934700760238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B552D0D42922934700760238 /* Build configuration list for PBXNativeTarget "Raycaster_Graficas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B552D0D52922934700760238 /* Debug */,
+				B552D0D62922934700760238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B552D0BD2922934400760238 /* Project object */;
+}
